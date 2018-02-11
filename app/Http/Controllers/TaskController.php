@@ -38,9 +38,6 @@ class TaskController extends Controller
 	{
 		$tasks = $request->user()->tasks()->get();
 
-		//для версии 5.1
-		//$tasks = Task::where('user_id', $request->user()->id)->get();
-
 		return view('tasks.index',
 			[
 				'tasks' => $this->tasks->forUser($request->user()),
