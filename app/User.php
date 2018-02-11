@@ -28,7 +28,7 @@ class User extends Authenticatable
     ];
 
     /**
-	 * Получаем все таски пользователяю По отношению 1 к многим
+	 * Получаем все таски пользователя по отношению 1 к многим
      * */
     public function tasks(){
     	return $this->hasMany(Task::class);
