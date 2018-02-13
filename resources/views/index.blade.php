@@ -12,29 +12,29 @@
         <!-- favicon -->
         <link rel="shortcut icon" href="images/icon/favicon.png"/>
         <!-- animation -->
-        <link rel="stylesheet" href="css/animate.css"/>
+        <link rel="stylesheet" href="{{ asset('home/css/animate.css') }}"/>
         <!-- bootstrap -->
-        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="{{ asset('home/css/bootstrap.min.css') }}"/>
         <!-- font-awesome icon -->
-        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="{{ asset('home/css/font-awesome.min.css') }}"/>
         <!-- themify-icons -->
-        <link rel="stylesheet" href="css/themify-icons.css"/>
+        <link rel="stylesheet" href="{{ asset('home/css/themify-icons.css') }}"/>
         <!-- owl carousel -->
-        <link rel="stylesheet" href="css/owl.transitions.css"/>
-        <link rel="stylesheet" href="css/owl.carousel.css"/>
+        <link rel="stylesheet" href="{{ asset('home/css/owl.transitions.css') }}"/>
+        <link rel="stylesheet" href="{{ asset('home/css/owl.carousel.css') }}"/>
         <!-- magnific popup -->
-        <link rel="stylesheet" href="css/magnific-popup.css"/>
+        <link rel="stylesheet" href="{{ asset('home/css/magnific-popup.css') }}"/>
         <!-- base -->
-        <link rel="stylesheet" href="css/base.css"/>
+        <link rel="stylesheet" href="{{ asset('home/css/base.css') }}"/>
         <!-- elements -->
-        <link rel="stylesheet" href="css/elements.css"/>
+        <link rel="stylesheet" href="{{ asset('home/css/elements.css') }}"/>
         <!-- responsive -->
-        <link rel="stylesheet" href="css/responsive.css"/>
+        <link rel="stylesheet" href="{{ asset('home/css/responsive.css') }}"/>
         <!--[if IE 9]>
-        <link rel="stylesheet" type="text/css" href="css/ie.css"/>
+        <link rel="stylesheet" type="text/css" href="{{ asset('home/css/ie.css') }}"/>
         <![endif]-->
         <!--[if IE]>
-            <script src="js/html5shiv.min.js"></script>
+            <script src="{{ asset('home/js/html5shiv.min.js') }}"></script>
         <![endif]-->
     </head>
     <body>
@@ -64,7 +64,7 @@
                         <div class="row">
                             <!-- logo -->
                             <div class="col-md-3 col-sm-4 col-xs-9">
-                                <a href="#hero-section27" class="inner-link"><img alt="" src="images/logo.png" data-img-size="(W)163px X (H)39px"></a>
+                                <a href="#hero-section27" class="inner-link"><img alt="" src="{{ asset('home/images/logo.png') }}" data-img-size="(W)163px X (H)39px"></a>
                             </div>
                             <!-- end logo -->
                             <div class="col-md-9 col-sm-8 col-xs-3 position-inherit">
@@ -109,7 +109,7 @@
                     <!-- image -->
                     <div class="col-md-6 col-sm-5 col-xs-12 display-table" style="">
                         <div class="display-table-cell-vertical-middle sm-padding-twenty-nine-top xs-padding-twenty-nine-bottom xs-no-padding-top">
-                            <img class="" src="images/design-screenshot4.png" data-img-size="(W)700px X (H)1000px" alt="">
+                            <img class="" src="{{ asset('home/images/design-screenshot4.png') }}" data-img-size="(W)700px X (H)1000px" alt="">
                         </div>
                     </div>
                     <!-- end image -->
@@ -120,9 +120,9 @@
                 <div class="container ">
                     <div class="row">
                         <div class="col-md-12 col-sm-7 col-xs-12 xs-no-padding xs-text-center">
-                            <div class="padding-seven-right padding-50px-tb sm-padding-15px-tb display-inline-block xs-width-30"><a href="#pricing-table3" class="position-relative z-index-5 inner-link"><img class="" src="images/social-media-icon1.png" data-img-size="(W)111px X (H)26px" alt=""></a></div>
-                            <div class="padding-seven-right padding-50px-tb sm-padding-15px-tb display-inline-block xs-width-30"><a href="#pricing-table3" class="position-relative z-index-5 inner-link"><img class="" src="images/social-media-icon2.png" data-img-size="(W)111px X (H)26px" alt=""></a></div>
-                            <div class="padding-30px-tb sm-padding-15px-tb display-inline-block xs-width-30"><a href="#pricing-table3" class="position-relative z-index-5 inner-link"><img class="" src="images/social-media-icon3.png" data-img-size="(W)111px X (H)26px" alt=""></a></div>
+                            <div class="padding-seven-right padding-50px-tb sm-padding-15px-tb display-inline-block xs-width-30"><a href="#pricing-table3" class="position-relative z-index-5 inner-link"><img class="" src="{{ asset('home/images/social-media-icon1.png')  }}" data-img-size="(W)111px X (H)26px" alt=""></a></div>
+                            <div class="padding-seven-right padding-50px-tb sm-padding-15px-tb display-inline-block xs-width-30"><a href="#pricing-table3" class="position-relative z-index-5 inner-link"><img class="" src="{{ asset('home/images/images/social-media-icon2.png')  }}" data-img-size="(W)111px X (H)26px" alt=""></a></div>
+                            <div class="padding-30px-tb sm-padding-15px-tb display-inline-block xs-width-30"><a href="#pricing-table3" class="position-relative z-index-5 inner-link"><img class="" src="{{ asset('home/images/images/social-media-icon3.png')  }}" data-img-size="(W)111px X (H)26px" alt=""></a></div>
                         </div>
                     </div>
                 </div>
