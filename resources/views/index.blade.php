@@ -91,7 +91,7 @@
             </nav> 
             <!-- end nav -->
         </header>
-        <section class="position-relative hero-section23 cover-background tz-builder-bg-image border-none hero-style23 bg-img-one" id="hero-section27" data-img-size="(W)1920px X (H)1000px" style="background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)) repeat scroll 0% 0%, transparent url('images/bg-image/hero-bg17.jpg')/*tpa=http://www.themezaa.com/html/leadgen/demo/hosting/images/bg-image/hero-bg17.jpg*/ repeat scroll 0% 0%;">
+        <section class="position-relative hero-section23 cover-background tz-builder-bg-image border-none hero-style23 bg-img-one" id="hero-section27" data-img-size="(W)1920px X (H)1000px" style="background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)) repeat scroll 0% 0%, transparent url('{{ asset('home/images/bg-image/hero-bg17.jpg') }}') repeat scroll 0% 0%;">
             <div class="container position-relative">
                 <div class="row equalize xs-equalize-auto equalize-display-inherit two-column">
                     <!-- slider text -->
@@ -121,8 +121,8 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-7 col-xs-12 xs-no-padding xs-text-center">
                             <div class="padding-seven-right padding-50px-tb sm-padding-15px-tb display-inline-block xs-width-30"><a href="#pricing-table3" class="position-relative z-index-5 inner-link"><img class="" src="{{ asset('home/images/social-media-icon1.png')  }}" data-img-size="(W)111px X (H)26px" alt=""></a></div>
-                            <div class="padding-seven-right padding-50px-tb sm-padding-15px-tb display-inline-block xs-width-30"><a href="#pricing-table3" class="position-relative z-index-5 inner-link"><img class="" src="{{ asset('home/images/images/social-media-icon2.png')  }}" data-img-size="(W)111px X (H)26px" alt=""></a></div>
-                            <div class="padding-30px-tb sm-padding-15px-tb display-inline-block xs-width-30"><a href="#pricing-table3" class="position-relative z-index-5 inner-link"><img class="" src="{{ asset('home/images/images/social-media-icon3.png')  }}" data-img-size="(W)111px X (H)26px" alt=""></a></div>
+                            <div class="padding-seven-right padding-50px-tb sm-padding-15px-tb display-inline-block xs-width-30"><a href="#pricing-table3" class="position-relative z-index-5 inner-link"><img class="" src="{{ asset('home/images/social-media-icon2.png')  }}" data-img-size="(W)111px X (H)26px" alt=""></a></div>
+                            <div class="padding-30px-tb sm-padding-15px-tb display-inline-block xs-width-30"><a href="#pricing-table3" class="position-relative z-index-5 inner-link"><img class="" src="{{ asset('home/images/social-media-icon3.png')  }}" data-img-size="(W)111px X (H)26px" alt=""></a></div>
                         </div>
                     </div>
                 </div>
@@ -135,7 +135,7 @@
                     <!-- image -->
                     <div class="col-md-6 col-sm-6 col-xs-12 xs-text-center xs-margin-nineteen-bottom display-table" style="">
                         <div class="display-table-cell-vertical-middle">
-                            <img alt="" src="images/agency-creative-img.png" data-img-size="(W)800px X (H)788px">
+                            <img alt="" src="{{ asset('home/images/agency-creative-img.png') }}" data-img-size="(W)800px X (H)788px">
                         </div>
                     </div>
                     <!-- end image -->                        
@@ -284,56 +284,56 @@
                 <div class="row four-column">
                     <!-- feature box -->
                     <div class="col-md-3 col-sm-6 col-xs-12 text-center margin-nine-bottom xs-margin-nineteen-bottom">
-                        <div class="border-radius-50 border-1-light-gray feature-icon builder-bg margin-fifteen-bottom xs-margin-nine-bottom"><img alt="" src="images/features-icon-01.png" data-img-size="(W)75px X (H)75px"></div>
+                        <div class="border-radius-50 border-1-light-gray feature-icon builder-bg margin-fifteen-bottom xs-margin-nine-bottom"><img alt="" src="{{ asset('home/images/features-icon-01.png') }}" data-img-size="(W)75px X (H)75px"></div>
                         <h3 class="text-medium text-dark-gray alt-font margin-six-bottom display-block sm-margin-nine-bottom xs-margin-five-bottom tz-text">CLOUD SERVERS</h3>
                         <div class="text-medium line-height-22 center-col tz-text"> <p> Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum dummy text. </p></div>
                     </div>
                     <!-- end feature box -->
                     <!-- feature box -->
                     <div class="col-md-3 col-sm-6 col-xs-12 text-center margin-nine-bottom xs-margin-nineteen-bottom">
-                        <div class="border-radius-50 border-1-light-gray feature-icon builder-bg margin-fifteen-bottom xs-margin-nine-bottom"><img alt="" src="images/features-icon-02.png" data-img-size="(W)75px X (H)75px"></div>
+                        <div class="border-radius-50 border-1-light-gray feature-icon builder-bg margin-fifteen-bottom xs-margin-nine-bottom"><img alt="" src="{{ asset('home/images/features-icon-02.png') }}" data-img-size="(W)75px X (H)75px"></div>
                         <h3 class="text-medium text-dark-gray alt-font margin-six-bottom display-block sm-margin-nine-bottom xs-margin-five-bottom tz-text">DATA ENCTYPTION</h3>
                         <div class="text-medium line-height-22 center-col tz-text"> <p> Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum dummy text.</p></div>
                     </div>
                     <!-- end feature box -->
                     <!-- feature box -->
                     <div class="col-md-3 col-sm-6 col-xs-12 text-center margin-nine-bottom xs-margin-nineteen-bottom">
-                        <div class="border-radius-50 border-1-light-gray feature-icon builder-bg margin-fifteen-bottom xs-margin-nine-bottom"><img alt="" src="images/features-icon-03.png" data-img-size="(W)75px X (H)75px"></div>
+                        <div class="border-radius-50 border-1-light-gray feature-icon builder-bg margin-fifteen-bottom xs-margin-nine-bottom"><img alt="" src="{{ asset('home/images/features-icon-03.png') }}" data-img-size="(W)75px X (H)75px"></div>
                         <h3 class="text-medium text-dark-gray alt-font margin-six-bottom display-block sm-margin-nine-bottom xs-margin-five-bottom tz-text">DATA ANALYSIS</h3>
                         <div class="text-medium line-height-22 center-col tz-text"> <p> Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum dummy text.</p></div>
                     </div>
                     <!-- end feature box -->
                     <!-- feature box -->
                     <div class="col-md-3 col-sm-6 col-xs-12 text-center margin-nine-bottom xs-margin-nineteen-bottom">
-                        <div class="border-radius-50 border-1-light-gray feature-icon builder-bg margin-fifteen-bottom xs-margin-nine-bottom"><img alt="" src="images/features-icon-04.png" data-img-size="(W)75px X (H)75px"></div>
+                        <div class="border-radius-50 border-1-light-gray feature-icon builder-bg margin-fifteen-bottom xs-margin-nine-bottom"><img alt="" src="{{ asset('home/images/features-icon-04.png') }}" data-img-size="(W)75px X (H)75px"></div>
                         <h3 class="text-medium text-dark-gray alt-font margin-six-bottom display-block sm-margin-nine-bottom xs-margin-five-bottom tz-text">DATA PROTECTION</h3>
                         <div class="text-medium line-height-22 center-col tz-text"> <p> Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum dummy text.</p></div>
                     </div>
                     <!-- end feature box -->
                     <!-- feature box -->
                     <div class="col-md-3 col-sm-6 col-xs-12 text-center sm-margin-nine-bottom xs-margin-nineteen-bottom">
-                        <div class="border-radius-50 border-1-light-gray feature-icon builder-bg margin-fifteen-bottom xs-margin-nine-bottom"><img alt="" src="images/features-icon-05.png" data-img-size="(W)75px X (H)75px"></div>
+                        <div class="border-radius-50 border-1-light-gray feature-icon builder-bg margin-fifteen-bottom xs-margin-nine-bottom"><img alt="" src="{{ asset('home/images/features-icon-05.png') }}" data-img-size="(W)75px X (H)75px"></div>
                         <h3 class="text-medium text-dark-gray alt-font margin-six-bottom display-block sm-margin-nine-bottom xs-margin-five-bottom tz-text">SUPPORT CENTER</h3>
                         <div class="text-medium line-height-22 center-col tz-text"> <p> Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum dummy text.</p></div>
                     </div>
                     <!-- end feature box -->
                     <!-- feature box -->
                     <div class="col-md-3 col-sm-6 col-xs-12 text-center sm-margin-nine-bottom xs-margin-nineteen-bottom">
-                        <div class="border-radius-50 border-1-light-gray feature-icon builder-bg margin-fifteen-bottom xs-margin-nine-bottom"><img alt="" src="images/features-icon-06.png" data-img-size="(W)75px X (H)75px"></div>
+                        <div class="border-radius-50 border-1-light-gray feature-icon builder-bg margin-fifteen-bottom xs-margin-nine-bottom"><img alt="" src="{{ asset('home/images/features-icon-06.png') }}" data-img-size="(W)75px X (H)75px"></div>
                         <h3 class="text-medium text-dark-gray alt-font margin-six-bottom display-block sm-margin-nine-bottom xs-margin-five-bottom tz-text">MONITORING</h3>
                         <div class="text-medium line-height-22 center-col tz-text"> <p> Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum dummy text.</p></div>
                     </div>
                     <!-- end feature box -->
                     <!-- feature box -->
                     <div class="col-md-3 col-sm-6 col-xs-12 text-center xs-margin-nineteen-bottom">
-                        <div class="border-radius-50 border-1-light-gray feature-icon builder-bg margin-fifteen-bottom xs-margin-nine-bottom"><img alt="" src="images/features-icon-07.png" data-img-size="(W)75px X (H)75px"></div>
+                        <div class="border-radius-50 border-1-light-gray feature-icon builder-bg margin-fifteen-bottom xs-margin-nine-bottom"><img alt="" src="{{ asset('home/images/features-icon-07.png') }}" data-img-size="(W)75px X (H)75px"></div>
                         <h3 class="text-medium text-dark-gray alt-font margin-six-bottom display-block sm-margin-nine-bottom xs-margin-five-bottom tz-text">TECHNICAL SERVICE</h3>
                         <div class="text-medium line-height-22 center-col tz-text"> <p> Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum dummy text.</p></div>
                     </div>
                     <!-- end feature box -->
                     <!-- feature box -->
                     <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-                        <div class="border-radius-50 border-1-light-gray feature-icon builder-bg margin-fifteen-bottom xs-margin-nine-bottom"><img alt="" src="images/features-icon-08.png" data-img-size="(W)75px X (H)75px"></div>
+                        <div class="border-radius-50 border-1-light-gray feature-icon builder-bg margin-fifteen-bottom xs-margin-nine-bottom"><img alt="" src="{{ asset('home/images/features-icon-08.png') }}" data-img-size="(W)75px X (H)75px"></div>
                         <h3 class="text-medium text-dark-gray alt-font margin-six-bottom display-block sm-margin-nine-bottom xs-margin-five-bottom tz-text">WEBSITE OPTIMIZATION</h3>
                         <div class="text-medium line-height-22 center-col tz-text"> <p> Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum dummy text.</p></div>
                     </div>
@@ -369,7 +369,7 @@
                     <!-- end feature box -->
                     <div class="col-md-4 col-sm-4 display-table col-xs-12 xs-margin-nineteen-bottom">
                         <div class="display-table-cell-vertical-middle">
-                            <img class="img-responsive margin-lr-auto" src="images/infographic-1.png" data-img-size="(W)296px X (H)603px" alt="">
+                            <img class="img-responsive margin-lr-auto" src="{{ asset('home/images/infographic-1.png') }}" data-img-size="(W)296px X (H)603px" alt="">
                         </div>
                     </div>
                     <!-- feature box -->
@@ -403,7 +403,7 @@
                 <div class="row equalize sm-equalize-auto equalize-display-inherit">                        
                     <div class="col-md-5 col-sm-12 col-xs-12 display-table sm-margin-fifteen-bottom">
                         <div class="display-table-cell-vertical-middle">
-                            <img src="images/agency-work-10.png" data-img-size="(W)800px X (H)650px" alt="">
+                            <img src="{{ asset('home/images/agency-work-10.png') }}" data-img-size="(W)800px X (H)650px" alt="">
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12 col-xs-12 display-table margin-six-left sm-no-margin">
@@ -469,7 +469,7 @@
                         <!-- testimonial item -->
                         <div class="item">
                             <div class="col-md-12 col-sm-12 col-xs-12 xs-no-padding-15 text-center">
-                                <div class="margin-ten-bottom"><img class="img-round-100" src="images/avtar-11.jpg" data-img-size="(W)149px X (H)149px" alt="" id="tz-bg-64"/></div>
+                                <div class="margin-ten-bottom"><img class="img-round-100" src="{{ asset('home/images/avtar-11.jpg') }}" data-img-size="(W)149px X (H)149px" alt="" id="tz-bg-64"/></div>
                                 <div class="text-medium margin-six-bottom tz-text width-95 sm-width-100 center-col" id="tz-slider-text94">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since type.</div>
                                 <div class="text-small alt-font text-dark-gray tz-text font-weight-600" id="tz-slider-text95">MELISSA SMITH - GOOGLE</div>
                             </div>
@@ -478,7 +478,7 @@
                         <!-- testimonial item -->
                         <div class="item">
                             <div class="col-md-12 col-sm-12 col-xs-12 xs-no-padding-15 text-center">
-                                <div class="margin-ten-bottom"><img class="img-round-100" src="images/avtar-10.jpg" data-img-size="(W)149px X (H)149px" alt="" id="tz-bg-65"/></div>
+                                <div class="margin-ten-bottom"><img class="img-round-100" src="{{ asset('home/images/avtar-10.jpg') }}" data-img-size="(W)149px X (H)149px" alt="" id="tz-bg-65"/></div>
                                 <div class="text-medium margin-six-bottom tz-text width-95 sm-width-100 center-col" id="tz-slider-text96">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since type.</div>
                                 <div class="text-small alt-font text-dark-gray tz-text font-weight-600" id="tz-slider-text97">JEREMY GIRARD - MICROSOFT</div>
                             </div>
@@ -487,7 +487,7 @@
                         <!-- testimonial item -->
                         <div class="item">
                             <div class="col-md-12 col-sm-12 col-xs-12 xs-no-padding-15 text-center">
-                                <div class="margin-ten-bottom"><img class="img-round-100" src="images/avtar-12.jpg" data-img-size="(W)149px X (H)149px" id="tz-bg-66" alt=""/></div>
+                                <div class="margin-ten-bottom"><img class="img-round-100" src=" {{ asset('home/images/avtar-12.jpg') }}" data-img-size="(W)149px X (H)149px" id="tz-bg-66" alt=""/></div>
                                 <div class="text-medium margin-six-bottom tz-text width-95 sm-width-100 center-col" id="tz-slider-text98">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since type.</div>
                                 <div class="text-small alt-font text-dark-gray tz-text font-weight-600" id="tz-slider-text99">PAUL SCRIVENS - FACEBOOK</div>
                             </div>
@@ -496,7 +496,7 @@
                         <!-- testimonial item -->
                         <div class="item">
                             <div class="col-md-12 col-sm-12 col-xs-12 xs-no-padding-15 text-center">
-                                <div class="margin-ten-bottom"><img class="img-round-100" src="images/avtar-13.jpg" data-img-size="(W)149px X (H)149px" id="tz-bg-67" alt=""/></div>
+                                <div class="margin-ten-bottom"><img class="img-round-100" src="{{ asset('home/images/avtar-13.jpg') }}" data-img-size="(W)149px X (H)149px" id="tz-bg-67" alt=""/></div>
                                 <div class="text-medium margin-six-bottom tz-text width-95 sm-width-100 center-col" id="tz-slider-text100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since type.</div>
                                 <div class="text-small alt-font text-dark-gray tz-text font-weight-600" id="tz-slider-text101">NATHAN FORD - GOOGLE</div>
                             </div>
@@ -505,7 +505,7 @@
                         <!-- testimonial item -->
                         <div class="item">
                             <div class="col-md-12 col-sm-12 col-xs-12 xs-no-padding-15 text-center">
-                                <div class="margin-ten-bottom"><img class="img-round-100" src="images/avtar-01.jpg" data-img-size="(W)149px X (H)149px" id="tz-bg-68" alt=""/></div>
+                                <div class="margin-ten-bottom"><img class="img-round-100" src="{{ asset('home/images/avtar-01.jpg') }}" data-img-size="(W)149px X (H)149px" id="tz-bg-68" alt=""/></div>
                                 <div class="text-medium margin-six-bottom tz-text width-95 sm-width-100 center-col" id="tz-slider-text102">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since type.</div>
                                 <div class="text-small alt-font text-dark-gray tz-text font-weight-600" id="tz-slider-text103">MELISSA SMITH - GOOGLE</div>
                             </div>
@@ -526,7 +526,7 @@
                                 <div class="client-logo-outer">
                                     <div class="client-logo-inner">
                                         <a href="#">
-                                            <img src="images/clients-1.png" id="tz-bg-149" data-img-size="(W)800px X (H)500px" alt=""/>
+                                            <img src="{{ asset('home/images/clients-1.png') }}" id="tz-bg-149" data-img-size="(W)800px X (H)500px" alt=""/>
                                         </a>
                                     </div>
                                 </div>
@@ -539,7 +539,7 @@
                                 <div class="client-logo-outer">
                                     <div class="client-logo-inner">
                                         <a href="#">
-                                            <img src="images/clients-2.png" id="tz-bg-150" data-img-size="(W)800px X (H)500px" alt=""/>
+                                            <img src="{{ asset('home/images/clients-2.png') }}" id="tz-bg-150" data-img-size="(W)800px X (H)500px" alt=""/>
                                         </a>
                                     </div>
                                 </div>
@@ -552,7 +552,7 @@
                                 <div class="client-logo-outer">
                                     <div class="client-logo-inner">
                                         <a href="#">
-                                            <img src="images/clients-3.png" id="tz-bg-151" data-img-size="(W)800px X (H)500px" alt=""/>
+                                            <img src="{{ asset('home/images/clients-3.png') }}" id="tz-bg-151" data-img-size="(W)800px X (H)500px" alt=""/>
                                         </a>
                                     </div>
                                 </div>
@@ -565,7 +565,7 @@
                                 <div class="client-logo-outer">
                                     <div class="client-logo-inner">
                                         <a href="#">
-                                            <img src="images/clients-4.png" id="tz-bg-152" data-img-size="(W)800px X (H)500px" alt=""/>
+                                            <img src="{{ asset('home/images/clients-4.png') }}" id="tz-bg-152" data-img-size="(W)800px X (H)500px" alt=""/>
                                         </a>
                                     </div>
                                 </div>
@@ -578,7 +578,7 @@
                                 <div class="client-logo-outer">
                                     <div class="client-logo-inner">
                                         <a href="#">
-                                            <img src="images/clients-5.png" id="tz-bg-153" data-img-size="(W)800px X (H)500px" alt=""/>
+                                            <img src="{{ asset('home/images/clients-5.png') }}" id="tz-bg-153" data-img-size="(W)800px X (H)500px" alt=""/>
                                         </a>
                                     </div>
                                 </div>
@@ -591,7 +591,7 @@
                                 <div class="client-logo-outer">
                                     <div class="client-logo-inner">
                                         <a href="#">
-                                            <img src="images/clients-6.png" id="tz-bg-154" data-img-size="(W)800px X (H)500px" alt=""/>
+                                            <img src="{{ asset('home/images/clients-6.png') }}" id="tz-bg-154" data-img-size="(W)800px X (H)500px" alt=""/>
                                         </a>
                                     </div>
                                 </div>
@@ -618,7 +618,7 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-12 col-xs-12 sm-text-center sm-margin-five-bottom ">
                         <!-- logo -->
-                        <a class="margin-eight-bottom display-inline-block inner-link" href="#home"><img src="images/logo.png" data-img-size="(W)163px X (H)39px" alt=""></a>
+                        <a class="margin-eight-bottom display-inline-block inner-link" href="#home"><img src="{{ asset('home/images/logo.png') }}" data-img-size="(W)163px X (H)39px" alt=""></a>
                         <!-- end logo -->
                         <div class="tz-text width-80 sm-width-100"><p class="no-margin-bottom">We've been crafting beautiful websites, launching stunning brands and making clients happy for years. With our prestigious craftsmanship.</p></div>
                     </div>
@@ -683,33 +683,33 @@
             </div>
         </footer>
         <!-- javascript libraries -->
-        <script type="text/javascript" src="js/jquery.min.js"></script>
-        <script type="text/javascript" src="js/jquery.appear.js"></script>
-        <script type="text/javascript" src="js/smooth-scroll.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="{{ asset('home/js/jquery.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('home/js/jquery.appear.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('home/js/smooth-scroll.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('home/js/bootstrap.min.js') }}"></script>
         <!-- wow animation -->
-        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script type="text/javascript" src="{{ asset('home/js/wow.min.js') }}"></script>
         <!-- owl carousel -->
-        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="{{ asset('home/js/owl.carousel.min.js') }}"></script>
         <!-- images loaded -->
-        <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+        <script type="text/javascript" src="{{ asset('home/js/imagesloaded.pkgd.min.js') }}"></script>
         <!-- isotope -->
-        <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+        <script type="text/javascript" src="{{ asset('home/js/jquery.isotope.min.js') }}"></script>
         <!-- magnific popup -->
-        <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+        <script type="text/javascript" src="{{ asset('home/js/jquery.magnific-popup.min.js') }}"></script>
         <!-- navigation -->
-        <script type="text/javascript" src="js/jquery.nav.js"></script>
+        <script type="text/javascript" src="{{ asset('home/js/jquery.nav.js') }}"></script>
         <!-- equalize -->
-        <script type="text/javascript" src="js/equalize.min.js"></script>
+        <script type="text/javascript" src="{{ asset('home/js/equalize.min.js') }}"></script>
         <!-- fit videos -->
-        <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+        <script type="text/javascript" src="{{ asset('home/js/jquery.fitvids.js') }}"></script>
         <!-- number counter -->
-        <script type="text/javascript" src="js/jquery.countTo.js"></script>
+        <script type="text/javascript" src="{{ asset('home/js/jquery.countTo.js') }}"></script>
         <!-- time counter  -->
-        <script type="text/javascript" src="js/counter.js"></script>
+        <script type="text/javascript" src="{{ asset('home/js/counter.js') }}"></script>
         <!-- twitter Fetcher  -->
-        <script type="text/javascript" src="js/twitterFetcher_min.js"></script>
+        <script type="text/javascript" src="{{ asset('home/js/twitterFetcher_min.js') }}"></script>
         <!-- main -->
-        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="{{ asset('home/js/main.js') }}"></script>
     </body>
 </html>
